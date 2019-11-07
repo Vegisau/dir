@@ -1,5 +1,5 @@
 {
-    "name": "crysalead/dir",
+    "name": "shoiketsu/dir",
     "description": "Recursive directory scanner to locate directories and/or files in a file system",
     "keywords": ["File System", "Directory Scanner", "Directory", "File"],
     "license": "MIT",
