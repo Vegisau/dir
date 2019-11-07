@@ -406,4 +406,9 @@ class Dir extends \FilterIterator
         }
         return false;
     }
+    
+    protected function _fnmatch($pattern, $string)
+    {
+        return preg_match("#^".strtr(preg_quote($pattern, '#'), array('\*' => '.*', '\?' => '.'))."$#i", $string);
+    }
 }
